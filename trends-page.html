@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AlamMoBa.net</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Ecommerce Template" name="keywords">
+        <meta content="Bootstrap Ecommerce Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Header Start -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="logo">
+                            <a href="">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="search">
+                            <input type="text" placeholder="Search" value="" id="search" onchange="openPage()">
+
+                            <script>
+                                function openPage() {
+                                    var x = document.getElementById("search").value;
+                        
+                                    if (x === "game") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/game-page.html");
+                                    }
+                        
+                                    if (x === "trending") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/trends-page.html");
+                                    }
+                                    if (x === "daily news") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/daily-page.html");
+                                    }
+                        
+                                    if (x === "sport") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/sport-page.html");
+                                    }
+                        
+                                    if (x === "politics") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/game-page.html");
+                                    }
+                        
+                                    if (x === "Weather") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/weather-page.html");
+                                    }
+                        
+                                    if (x === "technology") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/technology-page.html");
+                                    }
+                        
+                                    if (x === "global") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/global-page.html");
+                                    }
+
+                                    if (x === "Memes") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/memes-page.html");
+                                    }
+                        
+                        
+                        
+                                }
+                            </script>
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook"></i></a>             
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header End -->
+
+
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="trends-page.html" class="nav-item nav-link">Trends</a>
+                            <a href="daily-page.html" class="nav-item nav-link">Daily News</a>
+                            <a href="sport-page.html" class="nav-item nav-link">Sports</a>                                
+                            <a href="politics-page.html" class="nav-item nav-link">Politics</a>
+                            <a href="weather-page.html" class="nav-item nav-link">Weather</a>
+                            <a href="global-page.html" class="nav-item nav-link">Global</a>
+                            <a href="game-page.html" class="nav-item nav-link">Games</a>
+                            <a href="technology-page.html" class="nav-item nav-link">Technology</a>
+                            <a href="memes-page.html" class="nav-item nav-link">Memes</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+        
+        
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container-fluid">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">News</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
+        
+        <!-- trens 1-->
+        <div class="single-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="sn-img">
+                            <img src="img/top-news-1.jpg" />
+                        </div>
+                        <div class="sn-content">
+                            <a style="text-align: justify;" class="sn-title" href="">Donnalyn Bartolome receives criticism for her "toxic positivity" after making a comment about being thankful for work after the holidays.</a>
+                            <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                            <a class="sn-date" href=""><i class="far fa-clock"></i>03-Jan-2023</a>
+                            <p style="text-align: justify;" >
+                                After telling her followers to simply be "grateful" for having a job despite returning to work after the Christmas season, Donnalyn Bartolome has once again drawn the wrath of internet users.
+                            <p style="text-align: justify;" >
+                                “Bakit may sad dahil back to work na? Diba dapat masaya ka kasi may chance ka na pagandahin buhay mo at ng pamilya? Trip ko pa nga may work ng January 1 dahil superstition ko may work ako buong taon pag ganun. Dapat grateful kasi may work,” she said
+                            </p>
+                            <p style="text-align: justify;" >
+                                The vlogger further stated that her claim was only a "reminder" to her social media fans. "I hope you discover work that makes you happy if your job doesn't. This is only a reminder that having a job is a blessing, she continued, "bessss shift thinking, it's 2023. Yung pakikiligin ka and sheet [emoji]. This is just a reminder that having a job is a blessing. Bes, alter your perspective. 
+                            </p>
+                              <p style="text-align: justify;">
+It's 2023. (If work makes you sad, I hope you find a job that makes you happy.)
+Netizens were drawn to Bartolome's message, especially on Facebook and Twitter, where several criticized her for being "rich" and "out of touch with the hardship of average Filipinos."
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Category</h2>
+                                <div class="category">
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                                <div class="tags">
+                                    <a href="">National</a>
+                                    <a href="">International</a>
+                                    <a href="">Economics</a>
+                                    <a href="">Politics</a>                                   
+                                    <a href="">Technology</a>
+                                    <a href="">Trades</a>
+                                                                                              
+                                   
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Memes</h2>
+                                <div class="image">
+                                    <a href=""><img src="img/cat-news-21.png" alt="Image"></a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Advertisement</h2>
+                                <div class="image">
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href=""><img src="img/cat-news-1.jpg" alt="Image"></a>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <a href=""><img src="img/cat-news-1.jpg" alt="Image"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single News End-->
+        
+
+
+         <!-- trends 2-->
+         <div class="single-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="sn-img">
+                            <img src="img/top-news-2.jpg" />
+                        </div>
+                        <div class="sn-content">
+                            <a class="sn-title" href="">Thousands participate in the "walk of faith" before the Nazarene feast.</a>
+                            <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                            <a class="sn-date" href=""><i class="far fa-clock"></i>05-Jan-2023</a>
+                            <p style="text-align: justify;">
+                                MANILA, Philippines – On Sunday, January 8, thousands of followers participated in a "walk of faith" to remember the Feast of the Black Nazarene, which used to draw millions of people each year but hasn't fully recovered since the COVID-19 outbreak.
+
+                                The walk, which began at the Quirino Grandstand around 1 a.m. on Sunday and finished at the Quiapo Church at 4 a.m., drew about 88,000 enthusiasts.
+                            <p style="text-align: justify;">
+                                The Transaction, an annual gathering of devotees in Manila for the relocation of the Black Nazarene from Luneta to Quip, will be replaced with the "walk of faith," the Quiapo church announced previously.
+                            </p>
+                            <p style="text-align: justify;">
+                                Families and organizations that attended the event were spotted carrying candles, flags, and pictures of the Black Nazarene. Others lifted towels that are often used to clean a statue of the Black Nazarene.
+                            </p>
+                             <p>
+                                -rappler
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <div class="sidebar-widget">
+                                    <h2><i class="fas fa-align-justify"></i>Memes</h2>
+                                    <div class="image">
+                                        <a href=""><img src="img/cat-news-30.png" alt="Image"></a>
+                                    </div>
+                                </div>
+                               
+                                <div class="category">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                
+                                <div class="tags">
+                                                              
+                                   
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                               
+                                <div class="image">
+                                    <a href=""><img src="img/cat-news-22.png" alt="Image"></a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Sino etch?</h2>
+                                <div class="image">
+                                    <a href=""><img src="img/cat-news-19.png" alt="Image"></a>
+                                </div>
+                            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single News End-->
+        
+        
+    <!-- trends 3-->
+    <div class="single-news">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="sn-img">
+                        <img src="img/top-news-3.jpg" />
+                    </div>
+                    <div class="sn-content">
+                        <a class="sn-title" href="">Ginebra is one victory away from winning the Commissioner's Cup.</a>
+                        <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                        <a class="sn-date" href=""><i class="far fa-clock"></i>08-Jan-2023</a>
+                        <p style="text-align: justify;">
+                            JUST IN: After fending off a comeback attempt by the Bay Area Dragons to win Game 5 of the finals 101-91 on Sunday at the Mall of Asia Arena in Pasay City, Barangay Ginebra came one step closer to capturing the PBA Commissioner's Cup.
+                        <p style="text-align: justify;">
+                            In front of 21,823 ecstatic spectators, Stanley Pringle made two three-pointers during a crucial period of the fourth quarter to help Ginebra take a 3-2 series lead. He had 20 points and 5 rebounds when the game was over.                        </p>
+                        <p style="text-align: justify;">
+                            For Bay Area, Game 4 hero Kobey Lam scored 16 points and grabbed three rebounds, while Hayden Blankley exploded for 29 points, nine rebounds, and three assists.
+
+                            On January 11 at the Smart Araneta Coliseum in Quezon City, Ginebra can finish the series.                        </p>
+                         <p>
+                            -CNN
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Category</h2>
+                            <div class="category">
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trens</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily News</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sports</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="game-page.html">Games</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                            <div class="tags">
+                                <a href="daily-page.html">National</a>
+                                <a href="global-page.html">International</a>
+                                <a href="">Economics</a>
+                                <a href="politics-page.html">Politics</a>                                   
+                                <a href="technology-page.html">Technology</a>
+                                <a href="trends-page.html">Trades</a>
+                                                                                          
+                               
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Advertisement</h2>
+                            <div class="image">
+                                <a href=""><img src="img/cat-news-1.jpg" alt="Image"></a>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Related News</h2>
+                            <div class="image">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a href="sport-page.html"><img src="img/cat-news-3.jpg" alt="Image"></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a href="sport-page.html"><img src="img/cat-news-2.jpg" alt="Image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Single News End-->
+ 
+ <!-- trends 4-->
+ <div class="single-news">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="sn-img">
+                    <img src="img/top-news-4.jpg" />
+                </div>
+                <div class="sn-content">
+                    <a class="sn-title" href="">Elisse Joson umaming hindi pa talaga handang magpakasal si McCoy de Leon; sino nga ba ang may kasalanan sa hiwalayan? </a>
+                    <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                    <a class="sn-date" href=""><i class="far fa-clock"></i>08-Jan-2023</a>
+                    <p style="text-align: justify;">
+                        Chika: HINDI raw boto ang nanay. Nagger daw. Maraming demands. Yan ang ilan lamang sa mga naglalabasang rason kung bakit daw hiniwalayan ni McCoy de Leon si Elisse Joson.
+                    <p style="text-align: justify;">
+                        Hanggang ngayon ay wala pa ring nababanggit ang ex-celebrity couple tungkol sa tunay na rason ng kanilang biglaang breakup na pinagpiyeyestahan nga ngayon ng mga Marites.          
+                        Kung anu-ano na ang naglalabasang komento ng mga netizens tungkol sa nawasak nilang pagsasama na inakala ng lahat na mauuwi rin sa kasalan, pero sa pagpasok pa lang ng 2023 ay hiwalayan nga agad ang pasabog na balita sa mundo ng showbiz.
+                     <p>
+                        -Bandera
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="sidebar">
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Category</h2>
+                        <div class="category">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trens</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily News</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sports</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="game-page.html">Games</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                        <div class="tags">
+                            <a href="">National</a>
+                            <a href="">International</a>
+                            <a href="">Economics</a>
+                            <a href="">Politics</a>                                   
+                            <a href="">Technology</a>
+                            <a href="">Trades</a>
+                                                                                      
+                           
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Related news</h2>
+                        <div class="image">
+                            <a href=""><img src="img/top-news-1.jpg" alt="Image"></a>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                      
+                        <div class="image">
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <a href=""><img src="img/latest-news.jpg" alt="Image"></a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href=""><img src="img/cat-news-6.png"alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single News End-->
+
+
+
+<!-- trends 5-->
+<div class="single-news">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="sn-img">
+                    <img src="img/top-news-5.jpg" />
+                </div>
+                <div class="sn-content">
+                    <a class="sn-title" href="">Anak ni DOJ Sec. Remulla abswelto ng korte sa kasong illegal drug possession. </a>
+                    <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                    <a class="sn-date" href=""><i class="far fa-clock"></i>08-Jan-2023</a>
+                    <p style="text-align: justify;">
+                        Inabswelto ng Las Piñas City Regional Trial Court ang anak ni Justice Secretary Jesus Crispin “Boying” Remulla sa kasong illegal drug possession.
+                    <p style="text-align: justify;">
+                        Ayon kay Atty. Pearlito Campanilla, abogado ni Juanito Jose Remulla III, pinawalang sala ang kanyang kliyente dahil napatunayang hindi ito ang importer ng kush na nagkakahalaga ng P1.3-million.
+                        Dagdag pa ni Campanilla nagkaroon din umano ng isyu sa chain of custody sa mga ebidensiya dahil hindi nagpatawag ng mga witness ang Philippine Drug Enforcement Agency para sa inventory ng iligal na droga.    
+                        Binigyan diin din ng abogado na ang package na naglalaman ng iligal na droga ay nakapangalan kay “Juanito Remulla,” at hindi kay Juanito Jose Remulla III.    
+                     <p>
+                        -Brigada
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="sidebar">
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Category</h2>
+                        <div class="category">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                        <div class="tags">
+                            <a href="">National</a>
+                            <a href="">International</a>
+                            <a href="">Economics</a>
+                            <a href="">Politics</a>                                   
+                            <a href="">Technology</a>
+                            <a href="">Trades</a>
+                                                                                      
+                           
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Philippines!!!</h2>
+                        <div class="image">
+                            <a href=""><img src="img/cat-news-32.png" alt="Image"></a>
+                        </div>
+                    </div>
+
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single News End-->
+
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="https://htmlAlamMoBa.com">AlamMoba.net</a>. All Rights Reserved</p>
+                    </div>
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>

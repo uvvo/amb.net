@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>AlamMoBa.net</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Ecommerce Template" name="keywords">
+        <meta content="Bootstrap Ecommerce Template Free Download" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Top Header Start -->
+        <div class="top-header">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="logo">
+                            <a href="">
+                                <img src="img/logo.png" alt="Logo">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-4">
+                        <div class="search">
+                            <input type="text" placeholder="Search" value="" id="search" onchange="openPage()">
+
+                            <script>
+                                function openPage() {
+                                    var x = document.getElementById("search").value;
+                        
+                                    if (x === "game") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/game-page.html");
+                                    }
+                        
+                                    if (x === "trending") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/trends-page.html");
+                                    }
+                                    if (x === "daily news") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/daily-page.html");
+                                    }
+                        
+                                    if (x === "sport") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/sport-page.html");
+                                    }
+                        
+                                    if (x === "politics") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/game-page.html");
+                                    }
+                        
+                                    if (x === "Weather") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/weather-page.html");
+                                    }
+                        
+                                    if (x === "technology") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/technology-page.html");
+                                    }
+                        
+                                    if (x === "global") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/global-page.html");
+                                    }
+
+                                    if (x === "Memes") {
+                                        window.open("file:///C:/Users/uvvo/Desktop/AMB.net/memes-page.html");
+                                    }
+                        
+                        
+                        
+                                }
+                            </script>
+                            <button><i class="fa fa-search"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4">
+                        <div class="social">
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-facebook"></i></a>             
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Top Header End -->
+
+
+        <!-- Header Start -->
+        <div class="header">
+            <div class="container">
+                <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                    <a href="#" class="navbar-brand">MENU</a>
+                    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav m-auto">
+                            <a href="index.html" class="nav-item nav-link">Home</a>
+                            <a href="trends-page.html" class="nav-item nav-link">Trends</a>
+                            <a href="daily-page.html" class="nav-item nav-link">Daily News</a>
+                            <a href="sport-page.html" class="nav-item nav-link">Sports</a>                                
+                            <a href="politics-page.html" class="nav-item nav-link">Politics</a>
+                            <a href="weather-page.html" class="nav-item nav-link">Weather</a>
+                            <a href="global-page.html" class="nav-item nav-link">Global</a>
+                            <a href="game-page.html" class="nav-item nav-link">Games</a>
+                            <a href="technology-page.html" class="nav-item nav-link">Technology</a>
+                            <a href="memes-page.html" class="nav-item nav-link">Memes</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Header End -->
+        
+        
+        <!-- Breadcrumb Start -->
+        <div class="breadcrumb-wrap">
+            <div class="container-fluid">
+                <ul class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="index.html">News</a></li>
+                    <li class="breadcrumb-item active">News details</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Breadcrumb End -->
+        
+        
+        <!-- trens 1-->
+        <div class="single-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="sn-img">
+                            <img src="img/latest-news1.jpg" />
+                        </div>
+                        <div class="sn-content">
+                            <a style="text-align: justify;" class="sn-title" href="">Onions have always been an essential part of the Philippine diet.</a>
+                            <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                            <a class="sn-date" href=""><i class="far fa-clock"></i>19-Jan-2023</a>
+                            <p style="text-align: justify;" >
+                                Onions have always been an essential part of the Philippine diet. From making the perfect sinigang soup to the most delicious adobo, onions are used in almost every dish. However, recently, onions in the Philippines have become more expensive than meat. This has caused a lot of consternation among Filipino households, as onions are a staple in many Filipino dishes.
+                            <p style="text-align: justify;" >
+                                The primary reason why onions have become more expensive in the Philippines is due to the supply and demand imbalance. The demand for onions has increased significantly in recent years, while the supply of onions has not been able to keep up with the demand. This has resulted in higher prices due to increased competition among buyers. Additionally, the high cost of labor, transportation, and storage has also contributed to the high cost of onions.
+                            </p>
+                            <p style="text-align: justify;" >
+                                Apart from the supply and demand imbalance, there are also other factors that have contributed to the high price of onions in the Philippines. Weather is a big factor. Droughts, floods, and other extreme weather conditions can cause crop damage, resulting in reduced supply and higher prices. Additionally, the Philippines is a net importer of onions, so the fluctuation in international markets can also affect the prices of onions domestically.
+<p style="text-align: justify;">
+    The high cost of onions has had a major impact on the Filipino household. It has made meals more expensive as onions are a staple in most dishes. Additionally, it has also forced many households to reduce their consumption of onions, or switch to cheaper substitutes. This is especially problematic for those in the lower socio-economic brackets, who are already struggling to make ends meet.                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Category</h2>
+                                <div class="category">
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                                <div class="tags">
+                                    <a href="">National</a>
+                                    <a href="">International</a>
+                                    <a href="">Economics</a>
+                                    <a href="">Politics</a>                                   
+                                    <a href="">Technology</a>
+                                    <a href="">Trades</a>
+                                                                                              
+                                   
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Latest News</h2>
+                                <div class="image">
+                                    <a href="trends3-page.html"><img src="img/top-news-7.png" alt="Image"></a>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                
+                                <div class="image">
+                                    <a href="trends2-page.html"><img src="img/top-news-8.png" alt="Image"></a>
+                                </div>
+                            </div>
+
+                            
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single News End-->
+        
+
+
+         <!-- trends 2-->
+         <div class="single-news">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="sn-img">
+                            <img src="img/latest-news2.jpg" />
+                        </div>
+                        <div class="sn-content">
+                            <a style="text-align: justify;" class="sn-title" href="">OFFICIAL UE STATEMENT: Confirm the sudden passing of a UE Senior High School student this morning.</a>
+                            <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                            <a class="sn-date" href=""><i class="far fa-clock"></i>20-Jan-2023</a>
+                            <p style="text-align: justify;">
+                                While the student was in the hospital, UE quickly undertook investigations internally and in cooperation with the Philippine National Police’s Caloocan officers until early this afternoon, with the investigation results clearly showing the absence of any foul play or disregard by any other individual.                            
+                            <p style="text-align: justify;">
+                                    That said, the entire UE community is in mourning in the wake of this tragic loss of a young life, and we enjoin everyone to pray for his eternal repose. We kindly request that the privacy of his family and loved ones be respected at this difficult time, and that no one share any unfounded information about the student and his truly untimely demise.                            </p>
+                            <p style="text-align: justify;">
+                                In addition, there is the National Center for Mental Health Crisis Hotline via 1553 (Luzon-wide landline toll-free), 0998-532-4047 or 0917-775-9256 (6 a.m.-6 p.m.), or 0939-802-0288 or 0927-228-8035 (6 p.m.-6 a.m.)
+                                Please always feel free to reach out and chat with someone, verbally or non-verbally, especially in times of difficulty and distress. Thank you and take care.                            </p>
+                             <p>
+                                ZOSIMO M. BATTAD, Ph.D.
+                                President and Chief Academic Officer
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="sidebar">
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Category</h2>
+                                <div class="category">
+                                    <ul class="fa-ul">
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                                <div class="tags">
+                                    <a href="">National</a>
+                                    <a href="">International</a>
+                                    <a href="">Economics</a>
+                                    <a href="">Politics</a>                                   
+                                    <a href="">Technology</a>
+                                    <a href="">Trades</a>
+                                                                                              
+                                   
+                                </div>
+                            </div>
+
+                            <div class="sidebar-widget">
+                                <h2><i class="fas fa-align-justify"></i>Advertisement</h2>
+                                <div class="image">
+                                    <a href=""><img src="img/cat-news-1.jpg" alt="Image"></a>
+                                </div>
+                            </div>
+                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Single News End-->
+        
+        
+    <!-- trends 3-->
+    <div class="single-news">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="sn-img">
+                        <img src="img/latest-news3.jpg" />
+                    </div>
+                    <div class="sn-content">
+                        <a class="sn-title" href=""> MANILA, Philippines — Department of Education (DepEd).</a>
+                        <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                        <a class="sn-date" href=""><i class="far fa-clock"></i>20-Jan-2023</a>
+                        <p style="text-align: justify;">
+                            MANILA, Philippines — Department of Education (DepEd) officials in the National Capital Region (NCR) and a teachers group have stressed the need to teach children about peace and mutual respect after a high school student was stabbed dead by his classmate at Culiat High School in Quezon City on Jan. 20.
+                        <p style="text-align: justify;">
+                            “We are deeply saddened and disturbed that [a] violent incident such as this happened among our students inside the school which is supposed to be a safe place,” DepEd-NCR said in a recent statement as it offered assistance to the victim’s family.                        <p style="text-align: justify;">
+                                “Follow-up stress debriefing sessions shall also be administered to students and teachers who witnessed the incident,” it added.
+                                “From the latest discussions, the plan is to just integrate that into the revised curriculum. It will be integrated but of course, nothing is final until we finish the study on it,” he said.                         <p>
+                            -Abby Boiser,JaneBautista/ Inquirer.net
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Category</h2>
+                            <div class="category">
+                                <ul class="fa-ul">
+                                    <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                            <div class="tags">
+                                <a href="">National</a>
+                                <a href="">International</a>
+                                <a href="">Economics</a>
+                                <a href="">Politics</a>                                   
+                                <a href="">Technology</a>
+                                <a href="">Trades</a>
+                                                                                          
+                               
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Weather today</h2>
+                            <div class="image">
+                                <a href="weather-page.html"><img src="img/cat-news-13.png" alt="Image"></a>
+                            </div>
+                        </div>
+
+                        <div class="sidebar-widget">
+                            <h2><i class="fas fa-align-justify"></i>Related news</h2>
+                            <div class="image">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <a href="politics-page.html"><img src="img/cat-news-16.png" alt="Image"></a>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <a href="technology-page.html"><img src="img/cat-news-4.png" alt="Image"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Single News End-->
+ 
+ <!-- trends 4-->
+ <div class="single-news">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="sn-img">
+                    <img src="img/latest-news4.jpg" />
+                </div>
+                <div class="sn-content">
+                    <a class="sn-title" href="">COVID-19 cases continue to fall. </a>
+                    <a class="sn-date" href=""></i>AlamMoBa.net</a>
+                    <a class="sn-date" href=""><i class="far fa-clock"></i>21-Jan-2023</a>
+                    <p style="text-align: justify;">
+                        MANILA, Philippines — Detected COVID-19 cases continued their downward trend, three years since the first coronavirus case was detected in the country.
+
+                        Over the past week, the number of people who tested positive for the virus every day fell by 35 percent, to a daily average of 270 from 419 the previous week.                    <p style="text-align: justify;">
+                            The Department of Health (DOH) said out of the 1,891 new cases confirmed by laboratory tests, only one was in severe or critical condition.
+                            ccording to the DOH, 432 COVID-19 patients who are severely or critically ill are undergoing treatment in hospitals.
+
+                            There are currently 10,587 patients still infected with the virus. Of this total, 3,879, or 36 percent, are admitted to hospitals while the majority are presumed to be recovering at home.
+                            
+                            
+                            After three years of the pandemic, the DOH is still processing a huge backlog of reported COVID-19 deaths.
+                            
+                            The official death toll rose to 65,694 after the health agency confirmed 104 more deaths due to COVID-19, many of which occurred more than two years ago.                     <p>
+                          -Doona Z. Passibugan
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="sidebar">
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Category</h2>
+                        <div class="category">
+                            <ul class="fa-ul">
+                                <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="trends-page.html">Trends</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="daily-page.html">Daily</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="sport-page.html">Sport</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="politics-page.html">Politics</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="weather-page.html">Weather</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Global</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="global-page.html">Games</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="technology-page.html">Technology</a></li>
+                                        <li><span class="fa-li"><i class="far fa-arrow-alt-circle-right"></i></span><a href="memes-page.html">Memes</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>Tags</h2>
+                        <div class="tags">
+                            <a href="">National</a>
+                            <a href="">International</a>
+                            <a href="">Economics</a>
+                            <a href="">Politics</a>                                   
+                            <a href="">Technology</a>
+                            <a href="">Trades</a>
+                                                                                      
+                           
+                        </div>
+                    </div>
+
+                    <div class="sidebar-widget">
+                        <h2><i class="fas fa-align-justify"></i>ALAMMOBA?</h2>
+                        <div class="image">
+                            <a href=""><img src="img/cat-news-20.png" alt="Image"></a>
+                        </div>
+                    </div>
+
+                    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Single News End-->
+
+
+
+        <!-- Footer Bottom Start -->
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 copyright">
+                        <p>Copyright &copy; <a href="https://htmlAlamMoBa.com">AlamMoba.net</a>. All Rights Reserved</p>
+                    </div>
+
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Footer Bottom End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
